@@ -1,0 +1,46 @@
+@mixin language-box($img, $height, $width, $font-size){
+  background: url('../images/'+$img);
+  background-size:cover;
+  height:$height;
+  width:$width;
+  clear:none;
+  position:absolute;
+  display:table;
+  .title{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    span{
+      color:$green;
+      font-family: myriad;
+      font-size: $font-size;
+    }
+  }
+}
+
+
+#eng{
+  @include language-box('brando.jpg', 65%, 43%, 85px);
+  top:0;
+  left:0;
+}
+
+#esp{
+  @include language-box('rabal.jpg', 45%, 55%, 70px);
+  right:0;
+  top:0;
+
+}
+
+#itl{
+  @include language-box('Mastroianni.png', 33%, 65%, 40px);
+  bottom:0;
+  left:0;
+  background-position:50% 60%;
+}
+
+#fre{
+  @include language-box('goddard.jpg', 53%, 33%, 40px);
+  bottom:0;
+  right:0;
+}

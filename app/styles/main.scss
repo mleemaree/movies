@@ -1,0 +1,41 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/fullpage.js/jquery.fullPage.scss";
+@import "bower_components/compass-mixins/lib/_compass.scss";
+// endbower
+// 
+
+
+$yellow: rgb(255,255,0);
+$green: rgba(57,255,20,1);
+$orange: rgb(255,51,0);
+$purple: rgb(86, 0, 255);
+$gray: rgb(207,207,205);
+
+@import 'language';
+@import 'date';
+@import 'menu';
+@import 'cinema';
+@import 'movie';
+
+
+@font-face {
+    font-family: myriad;
+    src: url(assets/fonts/MyriadPro-BoldCond.otf);
+}
+
+@font-face {
+    font-family: m-bold;
+    src: url(assets/fonts/MyriadPro-Bold.otf);
+}
+
+@font-face {
+    font-family: m-reg;
+    src: url(assets/fonts/MyriadPro-Cond.otf);
+}
+
+.loading{
+	visibility:hidden;
+}

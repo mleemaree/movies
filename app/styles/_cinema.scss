@@ -1,0 +1,46 @@
+#map{
+	height:80vh;
+}
+
+#cinemas-wrapper{
+	height:80vh;
+}
+
+.cinemas{
+	height:100%;
+	list-style:none;
+}
+
+.cinema-info{
+	height:8% !important;
+	font-family:myriad;
+	font-size: 28px;
+}
+
+.ui-accordion-content-active{
+	float:left;
+	&:focus{
+		outline:none;
+	}
+}
+
+.ui-accordion-header-active{
+	text-align:right;
+	color: $purple;
+	float:right;
+	margin:0;
+	line-height:2.3em;
+}
+
+.time{
+	display:inline-block;
+	height:50px;
+	background-color:$purple;
+	margin: 0 10px;
+	span{
+		line-height:2.3em;
+		font-size: 24px;
+		padding: 0 10px;
+		color:white;
+	}
+}

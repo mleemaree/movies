@@ -1,0 +1,113 @@
+#language{
+  height:80vh;
+  width:767px;
+  margin: 0 auto;
+  position:relative;
+}
+
+#ltit{
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+#mtit{
+  position:relative;
+  margin:0 auto;
+  bottom:10vh;
+}
+
+.title-wrapper{
+  text-align:center;
+  width:100vw;
+}
+
+.cinema-wrapper{
+  position:relative;
+}
+
+.date-wrapper{
+  position:relative;
+}
+
+#ctit{
+  position:absolute;
+  right:-15%;
+  bottom:32vh;
+  transform: rotate(270deg);
+  transform-origin: 50% 50%;
+}
+
+#dtit{
+  postion:absolute;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  bottom:30vh;
+  left:-10%;
+}
+
+
+.menu-title{
+  font-size:100px;
+  font-family:arial black;
+  z-index:100;
+  position:absolute;
+  &:active{
+    text-decoration: none;
+  }
+}
+
+.outer-menu{
+	width:380px;
+	height:380px;
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+	span{
+		display:block;
+		font-family: English;
+		font-size:24px;
+	}
+}
+
+.menu-box{
+	height: 300px;
+    width: 300px;
+    border: 15px solid black;
+    margin: 0 auto;
+    text-align:center;
+    margin-top:7px;
+}
+
+.date{
+	position:absolute;
+	top:50%;
+	right:-3px;
+	transform: rotate(90deg);
+}
+
+.cinema{
+	position:absolute;
+	top:50%;
+	left:-11px;
+	transform: rotate(270deg);
+}
+
+.movie{
+	position:absolute;
+	bottom:0;
+	left:43%;
+}
+
+#ticket{
+	margin-top:75px;
+	width:250px;
+}
+
+.menu-title a{
+	color:black;
+	&:hover{
+		text-decoration:none;
+	}
+}

@@ -1,0 +1,98 @@
+.poster-wrapper{
+	background: -webkit-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */
+	margin: 0 auto;
+	height:80vh;
+}
+
+.swiper-container{
+	width:90%;
+	height:80vh;
+	bottom: 5vh;
+}
+
+.movie-poster{
+	height:80vh;
+	width:90%;
+	margin: 0 auto;
+	background-color:gray;
+	position:relative;
+	background-image: url('assets/img/posters/revenant.jpg');
+	background-size:cover;
+	text-align:left;
+	font-family:m-bold;
+}
+
+.two{
+	background-image:url('assets/img/posters/zoolander.jpg') !important;
+}
+
+.three{
+	background-image:url('assets/img/posters/starwars.jpg') !important;
+}
+
+.title{
+	text-transform:uppercase;
+	font-size:60px;
+	color: $yellow;
+}
+
+.little{
+	display:block;
+	font-size:35px;
+	padding-bottom:10px;
+	margin-top:-20px;
+	color:#0033cc;
+}
+
+.stats{
+	font-size:18px;
+	color: $yellow;
+	padding-left:5px;
+}
+
+.rating{
+	border:2px solid $yellow;
+	padding:2px 3px 0;
+}
+
+.summary-wrapper{
+	padding:20px;
+}
+
+.summary{
+	font-family:m-reg;
+	font-size:18px;
+	color: $gray;
+}
+
+.movie-details{
+	list-style:none;
+	font-family:m-reg;
+	font-size:18px;
+	padding-left:5px;
+}
+
+.det-tit{
+	color:$gray;
+}
+
+.actors, .genres, .tags{
+	color:white;
+	padding-left:5px;
+}
+
+.trailer-wrapper{
+	padding-top: 15vh;
+}
+
+#trailer{
+	font-size:16px;
+	background:transparent;
+	border:3px solid $yellow;
+	color:yellow;
+	text-transform:uppercase;
+	padding: 8px 30px;
+}
